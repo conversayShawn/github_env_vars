@@ -18,4 +18,4 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CYPRESS_PROJECT_ID: ${{ secrets.PROJECT_ID }}
-          COMMIT_INFO_BRANCH: ${{ github.ref }}
+          COMMIT_INFO_BRANCH: ${{ github.ref }} - Does this work?
